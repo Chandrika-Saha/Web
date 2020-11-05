@@ -102,7 +102,7 @@ void sendSMSLow()
 {
   SIM900.print("AT+CMGF=1\r"); 
   delay(100);
-  SIM900.println("AT + CMGS = \"+8801521229179\""); 
+  SIM900.println("AT + CMGS = \"+8801521*****\""); 
   delay(100);
   SIM900.println("Water level UNDERFLOW..!!Turn on the Motor."); 
   delay(100);
